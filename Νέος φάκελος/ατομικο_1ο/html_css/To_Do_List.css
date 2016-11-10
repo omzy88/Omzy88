@@ -1,0 +1,353 @@
+html {
+  font-size: 62.5%;
+  height:100%;
+}
+
+body {
+  height:100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  background-color:transparent;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+hr  {
+    border: 1;
+    height: 1px;
+    color: rgba(0, 0, 0, 1);
+}
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+a:focus {
+    outline: 0px !important;
+    -webkit-appearance: none;
+}
+
+.navbar-fixed-top {
+    background-color: rgba(34, 34, 34, 1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    border: 0px;
+    max-height: 50px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.navbar-inverse {
+    color: rgba(0, 0, 0, 1);
+    font-size: 2.0rem;
+    font-weight: 400;
+    background-color: rgba(34, 34, 34, 1);
+  }
+
+a.navbar-brand {
+      padding: 0 0;
+      margin-left: 15px;
+      width: 180px;
+      line-height: 50px;
+      font-size: 40px;
+  }
+
+  a.navbar-brand p {
+      width: 70%;
+      font-family: 'Cookie', cursive;
+      float: left;
+      padding: 0 0;
+      margin: 3px 0 0 3px;
+  }
+
+  a.navbar-brand img {
+      width: 25%;
+      margin-top: 3px;
+      float: left;
+      max-height: 100%;
+  }
+
+
+.navbar-inverse .navbar-brand {
+    color: white;
+    background-color: rgba(34, 34, 34, 1);
+}
+
+.navbar-form {
+    border: 0;
+}
+
+.navbar-toggle .material-icons {
+    font-size: 30px;
+    max-height: 50px;
+}
+
+.navbar-inverse .navbar-toggle:active {
+    background-color: transparent;
+    color: #000;
+    cursor: pointer;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox]:checked ~ #navbar {
+    border: 0;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.jumbotron {
+    height: 100%;
+    margin: 0 auto;
+    table-layout: fixed;
+    background-color: transparent;
+    border-top: 50px;
+    width: 90%;
+    margin-top: 100px;
+}
+
+.container >.jumbotron{
+    vertical-align: middle;
+    text-align: center;
+}
+
+.jumbotron .mainHeading {
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 100;
+}
+
+.navbar-bold{
+  font-weight: 900;
+  color: white;
+}
+
+
+.footer-distributed{
+	background-color: rgba(34, 34, 34, 1);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 38%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin-bottom: 30px;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: 550;
+	font-size:18px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.mailcompany {
+  margin: 0;
+  color: rgba(45, 70, 255, 1);
+}
+
+.centered-form{
+	margin-top: 60px;
+
+}
+
+.centered-form .panel{
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+  margin-top: 60px;
+}
+
+.todolist{
+    background-color:#FFF;
+    padding:20px 20px 10px 20px;
+    margin-top:30px;
+}
+.todolist h1{
+    margin:0;
+    padding-bottom:20px;
+    text-align:center;
+}
+.form-control{
+    border-radius:0;
+}
+li.ui-state-default{
+    background:#fff;
+    border:none;
+    border-bottom:1px solid #ddd;
+}
+
+li.ui-state-default:last-child{
+    border-bottom:none;
+}
+
+.todo-footer{
+    background-color:#F4FCE8;
+    margin:0 -20px -10px -20px;
+    padding: 10px 20px;
+}
+#done-items li{
+    padding:10px 0;
+    border-bottom:1px solid #ddd;
+    text-decoration:line-through;
+}
+#done-items li:last-child{
+    border-bottom:none;
+}
+#checkAll{
+    margin-top:10px;
+}
+
+
+.list {
+	font-family:"Trebuchet MS";
+    font-size:40px;
+	color:#000000;
+    cursor:pointer;
+}
+
+.todo-area{
+  font-size: 20px;
+  margin-top: 90px;
+}
+
+.reminder{
+  font-size: 25px;
+  font-weight: 350;
+}
+
+.bottom-marg {
+  margin-bottom: 30px;
+}
+
+.welcome {
+  color: white;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.form-align {
+  float: none;
+}
+
+.left-button{
+  margin-left: 20px;
+}
